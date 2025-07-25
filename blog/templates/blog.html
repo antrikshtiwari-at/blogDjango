@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Blog
+{% endblock title %}
+
+{% block content %}
+    <h1>Blog Page</h1>
+    <p>Welcome to the blog page 💕</p>
+    {% if allblogs %}
+    <div class="container">
+        {% for blog in allblogs %}
+        <a href="{{blog.id}}">
+        <div class="card">
+            <h5>{{blog.title}}</h5>
+        </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% else %}
+        <p>No blog post currently 🎈</p>
+    {% endif %}
+{% endblock content %}
