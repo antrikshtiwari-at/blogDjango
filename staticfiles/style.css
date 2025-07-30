@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+.card {
+    background-color: darkkhaki;
+    border-radius: 12;
+    border-width: 2px;
+    border: 2px solid black;
+    padding: 12px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.title{
+    font-size: larger;
+ 
+}
+h1 {
+    color: rgba(243, 6, 57, 0.5);
+    text-align: center;
+}
