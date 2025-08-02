@@ -1,5 +1,10 @@
-body{
-    background-image: url("https://images.unsplash.com/photo-1511385348-a52b4a160dc2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D")
+body {
+    background-image: url("https://images.unsplash.com/photo-1511385348-a52b4a160dc2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;        /* Makes image cover the entire screen */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents repeating */
+    height: 100vh;                 /* Full viewport height */
+    margin: 0;                     /* Remove default margin */
 }
 .card {
     background-color: darkkhaki;
@@ -15,7 +20,6 @@ body{
 }
 .title{
     font-size: larger;
- 
 }
 h1 {
     color: rgba(243, 6, 57, 0.5);
