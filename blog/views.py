@@ -17,4 +17,9 @@ def blog_page(request):
 
 def details_page(request,blogid):
     blogdetails = get_object_or_404(Blog, pk=blogid )
-    return render(request, "details.html", {"details":blogdetails })
+    return render(request, "details.html", {"details":blogdetails }) 
+
+
+
+def contact_us_page(request):
+    return render(request, "contact_us.html")
